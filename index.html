@@ -165,7 +165,7 @@
     <!-- Модалочки пошли -->
     <section class="modal modal-login">
         <h2>Личный кабинет</h2>
-        <p>Введите свой логин и пароль:</p>
+        <p class="modal-description">Введите свой логин и пароль:</p>
         <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
             <p>
                 <label for="user-login" class="visually-hidden">Логин</label>
@@ -175,7 +175,7 @@
                 <label for="user-password" class="visually-hidden">Пароль</label>
                 <input type="password" id="user-password" name="password" placeholder="Пароль" class="login-icon-password">
             </p>
-            <p class="login-password-info">
+            <p class="login-help">
                 <label class="login-checkbox" for="login-password-info">
                     <input type="checkbox" id="login-password-info" name="remember" class="visually-hidden">
                     <span class="checkbox-indicator"></span>Запомните меня
@@ -184,7 +184,7 @@
             </p>
             <button type="submit" class="button" >Войти</button>
         </form>
-        <button type="button" class="modal-close">Закрыть</button> 
+        <button type="button" class="modal-close"><span class="visually-hidden">Закрыть</span></button> 
     </section>
 
     <section class="modal modal-map">
@@ -193,7 +193,7 @@
             <img src="img/map.jpg" width="780" height="560" alt="Офис компании по адресу ул. Большая 
             Конюшенная 19/8, Санкт-Петербург">
         </p>
-        <button type="button" class="modal-close">Закрыть</button> 
+        <button type="button" class="modal-close"><span class="visually-hidden">Закрыть</span></button> 
     </section>
 </body>
 </html>
